@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40E562BC1F044569004D0F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562BB1F044569004D0F7A /* AppDelegate.swift */; };
+		40E562BE1F044569004D0F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562BD1F044569004D0F7A /* ViewController.swift */; };
+		40E562C11F044569004D0F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E562BF1F044569004D0F7A /* Main.storyboard */; };
+		40E562C31F044569004D0F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E562C21F044569004D0F7A /* Assets.xcassets */; };
+		40E562C61F044569004D0F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E562C41F044569004D0F7A /* LaunchScreen.storyboard */; };
+		40E562D11F044569004D0F7A /* SendMySMSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562D01F044569004D0F7A /* SendMySMSAppTests.swift */; };
+		40E562DC1F04456A004D0F7A /* SendMySMSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562DB1F04456A004D0F7A /* SendMySMSAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E562CD1F044569004D0F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E562B01F044569004D0F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E562B71F044569004D0F7A;
+			remoteInfo = SendMySMSApp;
+		};
+		40E562D81F04456A004D0F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E562B01F044569004D0F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E562B71F044569004D0F7A;
+			remoteInfo = SendMySMSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40E562B81F044569004D0F7A /* SendMySMSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMySMSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E562BB1F044569004D0F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40E562BD1F044569004D0F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40E562C01F044569004D0F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40E562C21F044569004D0F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E562C51F044569004D0F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40E562C71F044569004D0F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E562CC1F044569004D0F7A /* SendMySMSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMySMSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E562D01F044569004D0F7A /* SendMySMSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMySMSAppTests.swift; sourceTree = "<group>"; };
+		40E562D21F04456A004D0F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E562D71F04456A004D0F7A /* SendMySMSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMySMSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E562DB1F04456A004D0F7A /* SendMySMSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMySMSAppUITests.swift; sourceTree = "<group>"; };
+		40E562DD1F04456A004D0F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E562B51F044569004D0F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E562C91F044569004D0F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E562D41F04456A004D0F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E562AF1F044569004D0F7A = {
+			isa = PBXGroup;
+			children = (
+				40E562BA1F044569004D0F7A /* SendMySMSApp */,
+				40E562CF1F044569004D0F7A /* SendMySMSAppTests */,
+				40E562DA1F04456A004D0F7A /* SendMySMSAppUITests */,
+				40E562B91F044569004D0F7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40E562B91F044569004D0F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E562B81F044569004D0F7A /* SendMySMSApp.app */,
+				40E562CC1F044569004D0F7A /* SendMySMSAppTests.xctest */,
+				40E562D71F04456A004D0F7A /* SendMySMSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E562BA1F044569004D0F7A /* SendMySMSApp */ = {
+			isa = PBXGroup;
+			children = (
+				40E562BB1F044569004D0F7A /* AppDelegate.swift */,
+				40E562BD1F044569004D0F7A /* ViewController.swift */,
+				40E562BF1F044569004D0F7A /* Main.storyboard */,
+				40E562C21F044569004D0F7A /* Assets.xcassets */,
+				40E562C41F044569004D0F7A /* LaunchScreen.storyboard */,
+				40E562C71F044569004D0F7A /* Info.plist */,
+			);
+			path = SendMySMSApp;
+			sourceTree = "<group>";
+		};
+		40E562CF1F044569004D0F7A /* SendMySMSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				40E562D01F044569004D0F7A /* SendMySMSAppTests.swift */,
+				40E562D21F04456A004D0F7A /* Info.plist */,
+			);
+			path = SendMySMSAppTests;
+			sourceTree = "<group>";
+		};
+		40E562DA1F04456A004D0F7A /* SendMySMSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40E562DB1F04456A004D0F7A /* SendMySMSAppUITests.swift */,
+				40E562DD1F04456A004D0F7A /* Info.plist */,
+			);
+			path = SendMySMSAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E562B71F044569004D0F7A /* SendMySMSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E562E01F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSApp" */;
+			buildPhases = (
+				40E562B41F044569004D0F7A /* Sources */,
+				40E562B51F044569004D0F7A /* Frameworks */,
+				40E562B61F044569004D0F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendMySMSApp;
+			productName = SendMySMSApp;
+			productReference = 40E562B81F044569004D0F7A /* SendMySMSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40E562CB1F044569004D0F7A /* SendMySMSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E562E31F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppTests" */;
+			buildPhases = (
+				40E562C81F044569004D0F7A /* Sources */,
+				40E562C91F044569004D0F7A /* Frameworks */,
+				40E562CA1F044569004D0F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E562CE1F044569004D0F7A /* PBXTargetDependency */,
+			);
+			name = SendMySMSAppTests;
+			productName = SendMySMSAppTests;
+			productReference = 40E562CC1F044569004D0F7A /* SendMySMSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40E562D61F04456A004D0F7A /* SendMySMSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E562E61F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppUITests" */;
+			buildPhases = (
+				40E562D31F04456A004D0F7A /* Sources */,
+				40E562D41F04456A004D0F7A /* Frameworks */,
+				40E562D51F04456A004D0F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E562D91F04456A004D0F7A /* PBXTargetDependency */,
+			);
+			name = SendMySMSAppUITests;
+			productName = SendMySMSAppUITests;
+			productReference = 40E562D71F04456A004D0F7A /* SendMySMSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E562B01F044569004D0F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aaron Thomas";
+				TargetAttributes = {
+					40E562B71F044569004D0F7A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7D8A6696Q9;
+						ProvisioningStyle = Automatic;
+					};
+					40E562CB1F044569004D0F7A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7D8A6696Q9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40E562B71F044569004D0F7A;
+					};
+					40E562D61F04456A004D0F7A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7D8A6696Q9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40E562B71F044569004D0F7A;
+					};
+				};
+			};
+			buildConfigurationList = 40E562B31F044569004D0F7A /* Build configuration list for PBXProject "SendMySMSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40E562AF1F044569004D0F7A;
+			productRefGroup = 40E562B91F044569004D0F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E562B71F044569004D0F7A /* SendMySMSApp */,
+				40E562CB1F044569004D0F7A /* SendMySMSAppTests */,
+				40E562D61F04456A004D0F7A /* SendMySMSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E562B61F044569004D0F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E562C61F044569004D0F7A /* LaunchScreen.storyboard in Resources */,
+				40E562C31F044569004D0F7A /* Assets.xcassets in Resources */,
+				40E562C11F044569004D0F7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E562CA1F044569004D0F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E562D51F04456A004D0F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E562B41F044569004D0F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E562BE1F044569004D0F7A /* ViewController.swift in Sources */,
+				40E562BC1F044569004D0F7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E562C81F044569004D0F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E562D11F044569004D0F7A /* SendMySMSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E562D31F04456A004D0F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E562DC1F04456A004D0F7A /* SendMySMSAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40E562CE1F044569004D0F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E562B71F044569004D0F7A /* SendMySMSApp */;
+			targetProxy = 40E562CD1F044569004D0F7A /* PBXContainerItemProxy */;
+		};
+		40E562D91F04456A004D0F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E562B71F044569004D0F7A /* SendMySMSApp */;
+			targetProxy = 40E562D81F04456A004D0F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40E562BF1F044569004D0F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E562C01F044569004D0F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40E562C41F044569004D0F7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E562C51F044569004D0F7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40E562DE1F04456A004D0F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40E562DF1F04456A004D0F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E562E11F04456A004D0F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
+				INFOPLIST_FILE = SendMySMSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InteractiveCode.SendMySMSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40E562E21F04456A004D0F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
+				INFOPLIST_FILE = SendMySMSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InteractiveCode.SendMySMSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		40E562E41F04456A004D0F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
+				INFOPLIST_FILE = SendMySMSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InteractiveCode.SendMySMSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMySMSApp.app/SendMySMSApp";
+			};
+			name = Debug;
+		};
+		40E562E51F04456A004D0F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
+				INFOPLIST_FILE = SendMySMSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InteractiveCode.SendMySMSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMySMSApp.app/SendMySMSApp";
+			};
+			name = Release;
+		};
+		40E562E71F04456A004D0F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
+				INFOPLIST_FILE = SendMySMSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InteractiveCode.SendMySMSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SendMySMSApp;
+			};
+			name = Debug;
+		};
+		40E562E81F04456A004D0F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
+				INFOPLIST_FILE = SendMySMSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.InteractiveCode.SendMySMSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SendMySMSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E562B31F044569004D0F7A /* Build configuration list for PBXProject "SendMySMSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E562DE1F04456A004D0F7A /* Debug */,
+				40E562DF1F04456A004D0F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E562E01F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E562E11F04456A004D0F7A /* Debug */,
+				40E562E21F04456A004D0F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40E562E31F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E562E41F04456A004D0F7A /* Debug */,
+				40E562E51F04456A004D0F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40E562E61F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E562E71F04456A004D0F7A /* Debug */,
+				40E562E81F04456A004D0F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E562B01F044569004D0F7A /* Project object */;
+}
