@@ -7,30 +7,21 @@
 //
 
 import UIKit
-import Alamofire
 
-
-public class Request {
+class Request {
     
-    public init() {
-        
-    }
-
-    public var _from: String!
-    // must be string format
-    public var _text: String!
-    // must url encode the string AND must be 140 characters max
-    public var _to: String!
-    // must be in international dialling code format
+    var _from: String!
+    var _text: String!
+    var _to: String!
     
-    public var from: String {
+    var from: String {
         if _from == nil {
             _from = ""
         }
         return _from
     }
     
-    public var text: String {
+    var text: String {
         if _text == nil {
             _text = ""
         } else {
@@ -40,9 +31,9 @@ public class Request {
         return _text
     }
     
-    public var to: String {
+    var to: String {
         if _to == nil {
-            _to = "0"
+            _to = ""
         }
         return _to
     }

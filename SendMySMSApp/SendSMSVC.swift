@@ -8,9 +8,8 @@
 
 import UIKit
 
-class SendSMSVC: UIViewController {
+class SendSMSVC: UIViewController, UITextViewDelegate {
     
-   
     @IBOutlet weak var toTxtField: UITextField!
     @IBOutlet weak var fromTxtField: UITextField!
     @IBOutlet weak var textTxtView: UITextView!
@@ -18,24 +17,28 @@ class SendSMSVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        textTxtView.delegate = self
         
+        let tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SendSMSVC.DismissKeyboard))
+        self.view.addGestureRecognizer(tap)
     }
     
-    
-    // edit and add this function to an IBAction once textfields are completed to assign variables
-    //        func submitSMS() {
-    //
-    //            requestClass._to = toTxtField.UITextfield.text
-    //            requestClass._from = FromTxtField.UITextfield.text
-    //            requestClass._text = TextTxtView.UITextView.text
-    //
-    //            responseClass.downloadResponseData {
-    //            }
+    func DismissKeyboard(){
+        self.view.endEditing(true)
+    }
     
     @IBAction func sendBtn(_ sender: Any) {
-        
-        //submitSMS()
-        
+        submitSMS()
     }
     
+    func submitSMS() {
+        
+        requestClass._to = toTxtField.text
+        requestClass._from = fromTxtField.text
+        requestClass._text = textTxtView.text
+    
+        responseClass.downloadResponseData {
+        }
+}
+
 }

@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		408E024A1F059ABF0020EFEE /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E02491F059ABF0020EFEE /* CustomLabel.swift */; };
+		408E024C1F05AC2A0020EFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408E024B1F05AC2A0020EFEE /* Main.storyboard */; };
+		408E024E1F05BC8B0020EFEE /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 408E024D1F05BC8B0020EFEE /* ApiKeys.plist */; };
+		408E02501F06F7AA0020EFEE /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E024F1F06F7AA0020EFEE /* Keys.swift */; };
 		40E562BC1F044569004D0F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562BB1F044569004D0F7A /* AppDelegate.swift */; };
-		40E562BE1F044569004D0F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562BD1F044569004D0F7A /* ViewController.swift */; };
-		40E562C11F044569004D0F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E562BF1F044569004D0F7A /* Main.storyboard */; };
 		40E562C31F044569004D0F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E562C21F044569004D0F7A /* Assets.xcassets */; };
 		40E562C61F044569004D0F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E562C41F044569004D0F7A /* LaunchScreen.storyboard */; };
 		40E562D11F044569004D0F7A /* SendMySMSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562D01F044569004D0F7A /* SendMySMSAppTests.swift */; };
 		40E562DC1F04456A004D0F7A /* SendMySMSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562DB1F04456A004D0F7A /* SendMySMSAppUITests.swift */; };
+		40E562EF1F0445C4004D0F7A /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562EE1F0445C4004D0F7A /* IntroVC.swift */; };
+		40E562F01F0445C4004D0F7A /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562EE1F0445C4004D0F7A /* IntroVC.swift */; };
+		40E562F11F0445C4004D0F7A /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562EE1F0445C4004D0F7A /* IntroVC.swift */; };
+		40E562F31F0445D2004D0F7A /* SendSMSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562F21F0445D2004D0F7A /* SendSMSVC.swift */; };
+		40E562F41F0445D2004D0F7A /* SendSMSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562F21F0445D2004D0F7A /* SendSMSVC.swift */; };
+		40E562F51F0445D2004D0F7A /* SendSMSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562F21F0445D2004D0F7A /* SendSMSVC.swift */; };
+		40E562F71F0445D5004D0F7A /* ResponseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562F61F0445D5004D0F7A /* ResponseVC.swift */; };
+		40E562F81F0445D5004D0F7A /* ResponseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562F61F0445D5004D0F7A /* ResponseVC.swift */; };
+		40E562F91F0445D5004D0F7A /* ResponseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562F61F0445D5004D0F7A /* ResponseVC.swift */; };
+		40E562FB1F044603004D0F7A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562FA1F044603004D0F7A /* Constants.swift */; };
+		40E562FC1F044603004D0F7A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562FA1F044603004D0F7A /* Constants.swift */; };
+		40E562FD1F044603004D0F7A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562FA1F044603004D0F7A /* Constants.swift */; };
+		40E562FF1F044607004D0F7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562FE1F044607004D0F7A /* Request.swift */; };
+		40E563001F044607004D0F7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562FE1F044607004D0F7A /* Request.swift */; };
+		40E563011F044607004D0F7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E562FE1F044607004D0F7A /* Request.swift */; };
+		40E563031F04460B004D0F7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E563021F04460B004D0F7A /* Response.swift */; };
+		40E563041F04460B004D0F7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E563021F04460B004D0F7A /* Response.swift */; };
+		40E563051F04460B004D0F7A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E563021F04460B004D0F7A /* Response.swift */; };
+		40E563071F04460E004D0F7A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E563061F04460E004D0F7A /* CustomButtonView.swift */; };
+		40E563081F04460E004D0F7A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E563061F04460E004D0F7A /* CustomButtonView.swift */; };
+		40E563091F04460E004D0F7A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E563061F04460E004D0F7A /* CustomButtonView.swift */; };
+		6518716317902F809FA3D77C /* Pods_SendMySMSAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FE3A77C10C10FE9F18B402 /* Pods_SendMySMSAppUITests.framework */; };
+		BE68BF2BF091813BC477E472 /* Pods_SendMySMSAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14015DC356EA0AB0E7ED699 /* Pods_SendMySMSAppTests.framework */; };
+		D6BCD3F131E3E3E25C1AFAA3 /* Pods_SendMySMSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C647B3774AF59B4C861717F /* Pods_SendMySMSApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +60,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04014979A6A8447FEA1874C5 /* Pods-SendMySMSAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMySMSAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendMySMSAppUITests/Pods-SendMySMSAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C970FE16315DB2B578B2828 /* Pods-SendMySMSAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMySMSAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendMySMSAppUITests/Pods-SendMySMSAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		153D805BE808B501696969C4 /* Pods-SendMySMSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMySMSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendMySMSApp/Pods-SendMySMSApp.release.xcconfig"; sourceTree = "<group>"; };
+		3C647B3774AF59B4C861717F /* Pods_SendMySMSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendMySMSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		408E02491F059ABF0020EFEE /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		408E024B1F05AC2A0020EFEE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		408E024D1F05BC8B0020EFEE /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		408E024F1F06F7AA0020EFEE /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		40E562B81F044569004D0F7A /* SendMySMSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMySMSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E562BB1F044569004D0F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40E562BD1F044569004D0F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40E562C01F044569004D0F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E562C21F044569004D0F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E562C51F044569004D0F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40E562C71F044569004D0F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +79,18 @@
 		40E562D71F04456A004D0F7A /* SendMySMSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMySMSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E562DB1F04456A004D0F7A /* SendMySMSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMySMSAppUITests.swift; sourceTree = "<group>"; };
 		40E562DD1F04456A004D0F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E562EE1F0445C4004D0F7A /* IntroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		40E562F21F0445D2004D0F7A /* SendSMSVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendSMSVC.swift; sourceTree = "<group>"; };
+		40E562F61F0445D5004D0F7A /* ResponseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseVC.swift; sourceTree = "<group>"; };
+		40E562FA1F044603004D0F7A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40E562FE1F044607004D0F7A /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		40E563021F04460B004D0F7A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		40E563061F04460E004D0F7A /* CustomButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		5634EBE1E20B0E91AC4C9A0E /* Pods-SendMySMSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMySMSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendMySMSApp/Pods-SendMySMSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF7DE2013457C6B0C2C332F /* Pods-SendMySMSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMySMSAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendMySMSAppTests/Pods-SendMySMSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		830AB675EB75FE48094EDEC5 /* Pods-SendMySMSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMySMSAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendMySMSAppTests/Pods-SendMySMSAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0FE3A77C10C10FE9F18B402 /* Pods_SendMySMSAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendMySMSAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14015DC356EA0AB0E7ED699 /* Pods_SendMySMSAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendMySMSAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BCD3F131E3E3E25C1AFAA3 /* Pods_SendMySMSApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE68BF2BF091813BC477E472 /* Pods_SendMySMSAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6518716317902F809FA3D77C /* Pods_SendMySMSAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +128,8 @@
 				40E562CF1F044569004D0F7A /* SendMySMSAppTests */,
 				40E562DA1F04456A004D0F7A /* SendMySMSAppUITests */,
 				40E562B91F044569004D0F7A /* Products */,
+				984E872F37B954F347A48974 /* Pods */,
+				FA0DB86629A3FA02D658666E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +146,15 @@
 		40E562BA1F044569004D0F7A /* SendMySMSApp */ = {
 			isa = PBXGroup;
 			children = (
+				40E562ED1F0445B0004D0F7A /* Model */,
+				40E562EC1F0445AB004D0F7A /* View */,
+				40E562EB1F0445A5004D0F7A /* Controller */,
+				408E024B1F05AC2A0020EFEE /* Main.storyboard */,
 				40E562BB1F044569004D0F7A /* AppDelegate.swift */,
-				40E562BD1F044569004D0F7A /* ViewController.swift */,
-				40E562BF1F044569004D0F7A /* Main.storyboard */,
 				40E562C21F044569004D0F7A /* Assets.xcassets */,
 				40E562C41F044569004D0F7A /* LaunchScreen.storyboard */,
 				40E562C71F044569004D0F7A /* Info.plist */,
+				408E024D1F05BC8B0020EFEE /* ApiKeys.plist */,
 			);
 			path = SendMySMSApp;
 			sourceTree = "<group>";
@@ -125,6 +177,59 @@
 			path = SendMySMSAppUITests;
 			sourceTree = "<group>";
 		};
+		40E562EB1F0445A5004D0F7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40E562EE1F0445C4004D0F7A /* IntroVC.swift */,
+				40E562F21F0445D2004D0F7A /* SendSMSVC.swift */,
+				40E562F61F0445D5004D0F7A /* ResponseVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		40E562EC1F0445AB004D0F7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40E563061F04460E004D0F7A /* CustomButtonView.swift */,
+				408E02491F059ABF0020EFEE /* CustomLabel.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		40E562ED1F0445B0004D0F7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40E562FA1F044603004D0F7A /* Constants.swift */,
+				40E562FE1F044607004D0F7A /* Request.swift */,
+				40E563021F04460B004D0F7A /* Response.swift */,
+				408E024F1F06F7AA0020EFEE /* Keys.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		984E872F37B954F347A48974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5634EBE1E20B0E91AC4C9A0E /* Pods-SendMySMSApp.debug.xcconfig */,
+				153D805BE808B501696969C4 /* Pods-SendMySMSApp.release.xcconfig */,
+				6DF7DE2013457C6B0C2C332F /* Pods-SendMySMSAppTests.debug.xcconfig */,
+				830AB675EB75FE48094EDEC5 /* Pods-SendMySMSAppTests.release.xcconfig */,
+				0C970FE16315DB2B578B2828 /* Pods-SendMySMSAppUITests.debug.xcconfig */,
+				04014979A6A8447FEA1874C5 /* Pods-SendMySMSAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA0DB86629A3FA02D658666E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C647B3774AF59B4C861717F /* Pods_SendMySMSApp.framework */,
+				B14015DC356EA0AB0E7ED699 /* Pods_SendMySMSAppTests.framework */,
+				A0FE3A77C10C10FE9F18B402 /* Pods_SendMySMSAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40E562E01F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSApp" */;
 			buildPhases = (
+				C1BCBC59EB9CD603F835979A /* [CP] Check Pods Manifest.lock */,
 				40E562B41F044569004D0F7A /* Sources */,
 				40E562B51F044569004D0F7A /* Frameworks */,
 				40E562B61F044569004D0F7A /* Resources */,
+				0AE46A2C9C25D7EDB8955FDE /* [CP] Embed Pods Frameworks */,
+				36D0B364634E3CBC9C7B8808 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40E562E31F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppTests" */;
 			buildPhases = (
+				BE51B5CD561980AF5CF80B98 /* [CP] Check Pods Manifest.lock */,
 				40E562C81F044569004D0F7A /* Sources */,
 				40E562C91F044569004D0F7A /* Frameworks */,
 				40E562CA1F044569004D0F7A /* Resources */,
+				B5C3EE7AAE6F484AFB8F1643 /* [CP] Embed Pods Frameworks */,
+				9190D32E45CFA0DAF0C26849 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40E562E61F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppUITests" */;
 			buildPhases = (
+				7A4CADEC11118D207D8FE1CB /* [CP] Check Pods Manifest.lock */,
 				40E562D31F04456A004D0F7A /* Sources */,
 				40E562D41F04456A004D0F7A /* Frameworks */,
 				40E562D51F04456A004D0F7A /* Resources */,
+				7944E8E829A59E7E1C76C4D7 /* [CP] Embed Pods Frameworks */,
+				7D73E07CF4EC43F0EC2C07F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,8 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E562C61F044569004D0F7A /* LaunchScreen.storyboard in Resources */,
+				408E024E1F05BC8B0020EFEE /* ApiKeys.plist in Resources */,
+				408E024C1F05AC2A0020EFEE /* Main.storyboard in Resources */,
 				40E562C31F044569004D0F7A /* Assets.xcassets in Resources */,
-				40E562C11F044569004D0F7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +372,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AE46A2C9C25D7EDB8955FDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendMySMSApp/Pods-SendMySMSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D0B364634E3CBC9C7B8808 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendMySMSApp/Pods-SendMySMSApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7944E8E829A59E7E1C76C4D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendMySMSAppUITests/Pods-SendMySMSAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4CADEC11118D207D8FE1CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D73E07CF4EC43F0EC2C07F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendMySMSAppUITests/Pods-SendMySMSAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9190D32E45CFA0DAF0C26849 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendMySMSAppTests/Pods-SendMySMSAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5C3EE7AAE6F484AFB8F1643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendMySMSAppTests/Pods-SendMySMSAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE51B5CD561980AF5CF80B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BCBC59EB9CD603F835979A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40E562B41F044569004D0F7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E562BE1F044569004D0F7A /* ViewController.swift in Sources */,
+				40E563031F04460B004D0F7A /* Response.swift in Sources */,
+				408E024A1F059ABF0020EFEE /* CustomLabel.swift in Sources */,
+				40E562F71F0445D5004D0F7A /* ResponseVC.swift in Sources */,
+				40E562F31F0445D2004D0F7A /* SendSMSVC.swift in Sources */,
+				40E563071F04460E004D0F7A /* CustomButtonView.swift in Sources */,
 				40E562BC1F044569004D0F7A /* AppDelegate.swift in Sources */,
+				40E562FF1F044607004D0F7A /* Request.swift in Sources */,
+				40E562EF1F0445C4004D0F7A /* IntroVC.swift in Sources */,
+				40E562FB1F044603004D0F7A /* Constants.swift in Sources */,
+				408E02501F06F7AA0020EFEE /* Keys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +532,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E562FC1F044603004D0F7A /* Constants.swift in Sources */,
+				40E563001F044607004D0F7A /* Request.swift in Sources */,
 				40E562D11F044569004D0F7A /* SendMySMSAppTests.swift in Sources */,
+				40E563081F04460E004D0F7A /* CustomButtonView.swift in Sources */,
+				40E562F01F0445C4004D0F7A /* IntroVC.swift in Sources */,
+				40E562F41F0445D2004D0F7A /* SendSMSVC.swift in Sources */,
+				40E562F81F0445D5004D0F7A /* ResponseVC.swift in Sources */,
+				40E563041F04460B004D0F7A /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +547,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E562FD1F044603004D0F7A /* Constants.swift in Sources */,
+				40E563011F044607004D0F7A /* Request.swift in Sources */,
 				40E562DC1F04456A004D0F7A /* SendMySMSAppUITests.swift in Sources */,
+				40E563091F04460E004D0F7A /* CustomButtonView.swift in Sources */,
+				40E562F11F0445C4004D0F7A /* IntroVC.swift in Sources */,
+				40E562F51F0445D2004D0F7A /* SendSMSVC.swift in Sources */,
+				40E562F91F0445D5004D0F7A /* ResponseVC.swift in Sources */,
+				40E563051F04460B004D0F7A /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +574,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40E562BF1F044569004D0F7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40E562C01F044569004D0F7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40E562C41F044569004D0F7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +682,7 @@
 		};
 		40E562E11F04456A004D0F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5634EBE1E20B0E91AC4C9A0E /* Pods-SendMySMSApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7D8A6696Q9;
@@ -428,6 +696,7 @@
 		};
 		40E562E21F04456A004D0F7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153D805BE808B501696969C4 /* Pods-SendMySMSApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7D8A6696Q9;
@@ -441,6 +710,7 @@
 		};
 		40E562E41F04456A004D0F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF7DE2013457C6B0C2C332F /* Pods-SendMySMSAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +726,7 @@
 		};
 		40E562E51F04456A004D0F7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830AB675EB75FE48094EDEC5 /* Pods-SendMySMSAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +742,7 @@
 		};
 		40E562E71F04456A004D0F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C970FE16315DB2B578B2828 /* Pods-SendMySMSAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7D8A6696Q9;
@@ -485,6 +757,7 @@
 		};
 		40E562E81F04456A004D0F7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04014979A6A8447FEA1874C5 /* Pods-SendMySMSAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 7D8A6696Q9;
@@ -516,6 +789,7 @@
 				40E562E21F04456A004D0F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E562E31F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +798,7 @@
 				40E562E51F04456A004D0F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E562E61F04456A004D0F7A /* Build configuration list for PBXNativeTarget "SendMySMSAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +807,7 @@
 				40E562E81F04456A004D0F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

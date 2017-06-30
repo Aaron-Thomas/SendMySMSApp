@@ -8,12 +8,12 @@
 
 import UIKit
 
-public class CustomButtonView: UIButton {
+class CustomButtonView: UIButton {
     
     // make button corners rounded
         override public func layoutSubviews() {
             super.layoutSubviews()
-            layer.cornerRadius = 8
+            layer.cornerRadius = 10
         }
     }
 

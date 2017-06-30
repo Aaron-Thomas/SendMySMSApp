@@ -14,17 +14,14 @@ class IntroVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         getStartedBtn.alpha = 0.0
 
     }
     
-//    override func viewDidAppear(_ animated: Bool) {
-//        
-//        getStartedBtn.fadeIn(withDuration: 4.0)
-//    }
-
-
-
+    override func viewDidAppear(_ animated: Bool) {
+        
+        getStartedBtn.fadeIn(withDuration: 3.0)
+    }
 }
 

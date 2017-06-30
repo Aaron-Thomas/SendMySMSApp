@@ -10,8 +10,6 @@ import UIKit
 
 class ResponseVC: UIViewController {
     
-    
-    
     @IBOutlet weak var outcomeImg: UIImageView!
     @IBOutlet weak var outcomeLbl: UILabel!
     @IBOutlet weak var statusLbl: UILabel!
@@ -20,34 +18,41 @@ class ResponseVC: UIViewController {
     @IBOutlet weak var messagePriceLbl: UILabel!
     @IBOutlet weak var remainingBalanceLbl: UILabel!
     @IBOutlet weak var networkLbl: UILabel!
-    
 
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        
-       
-        
-        //CHECK BELOW SYNTAX
-//        if responseClass.status == 0 {
-//            outcomeImg.image = UIImage(named: "success")
-//            outcomeLbl.text = "Message sent successfully!"
-//        } else {
-//            outcomeImg.image = UIImage(named: "failure")
-//            outcomeLbl.text = "Message failed to send :(")
-//        }
 
     }
     
-     
-//        func updateMainUI() {
-//            toLbl.text = responseClass.to
-//            messageIDLbl.text = responseClass.messageId
-//            statusLbll.text = responseClass.status
-//            messagePriceLbl = responseClaas.messagePrice
-//            remainingBalanceLbl.text = responseClass.remainingBalance
-//            networkLbl.text = responseClass.network
-//        }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        // if success, show success img
+        if responseClass.messageSentSuccessfully == true {
+            outcomeImg.image = UIImage(named: "success")
+            outcomeLbl.text = "Message sent successfully!"
+        } else {
+            // if failure, show failure img and hide uneccessary labels
+            outcomeImg.image = UIImage(named: "failure")
+            outcomeLbl.text = "Message failed to send :("
+            
+            toLbl.isHidden = true
+            messageIDLbl.isHidden = true
+            messagePriceLbl.isHidden = true
+            remainingBalanceLbl.isHidden = true
+            networkLbl.isHidden = true
+        }
+        updateMainUI()
+    }
     
-    
+    // assign response data values to UI
+     func updateMainUI() {
+        toLbl.text = "To:\(responseClass.to)"
+        messageIDLbl.text = "Message ID:\(responseClass.messageId)"
+        messagePriceLbl.text = "Message Price:\(responseClass.messagePrice)"
+        remainingBalanceLbl.text = "Remaining balance: \(responseClass.remainingBalance)"
+        networkLbl.text = "Network: \(responseClass.network)"
+        statusLbl.text = "Status:\(responseClass.status)"
+     }
 }
 
