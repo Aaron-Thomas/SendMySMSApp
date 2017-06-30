@@ -8,20 +8,17 @@
 
 import UIKit
 
+let filePath = Bundle.main.path(forResource: "ApiKeys", ofType: "plist")
+let plist = NSDictionary(contentsOfFile:filePath!)
+
 func valueForAPIKey(named apiKey:String) -> String {
     
-    let filePath = Bundle.main.path(forResource: "ApiKeys", ofType: "plist")
-    let plist = NSDictionary(contentsOfFile:filePath!)
     let value = plist?.object(forKey: apiKey) as! String
-    
     return value
 }
 
 func valueForAPISecret(named apiSecret:String) -> String {
     
-    let filePath = Bundle.main.path(forResource: "ApiKeys", ofType: "plist")
-    let plist = NSDictionary(contentsOfFile:filePath!)
     let value = plist?.object(forKey: apiSecret) as! String
-    
     return value
 }
